@@ -18,6 +18,7 @@
 		5599745318FD7BE3001DA584 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599743218FD7BE3001DA584 /* Cocoa.framework */; };
 		5599745B18FD7BE3001DA584 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5599745918FD7BE3001DA584 /* InfoPlist.strings */; };
 		5599745D18FD7BE3001DA584 /* RekenmachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599745C18FD7BE3001DA584 /* RekenmachineTests.m */; };
+		5599746B18FD90D8001DA584 /* Brain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599746A18FD90D8001DA584 /* Brain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		5599745818FD7BE3001DA584 /* RekenmachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RekenmachineTests-Info.plist"; sourceTree = "<group>"; };
 		5599745A18FD7BE3001DA584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5599745C18FD7BE3001DA584 /* RekenmachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RekenmachineTests.m; sourceTree = "<group>"; };
+		5599746918FD90D8001DA584 /* Brain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brain.h; sourceTree = "<group>"; };
+		5599746A18FD90D8001DA584 /* Brain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5599744718FD7BE3001DA584 /* MainMenu.xib */,
 				5599744A18FD7BE3001DA584 /* Images.xcassets */,
 				5599743918FD7BE3001DA584 /* Supporting Files */,
+				5599746918FD90D8001DA584 /* Brain.h */,
+				5599746A18FD90D8001DA584 /* Brain.m */,
 			);
 			path = Rekenmachine;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			files = (
 				5599744618FD7BE3001DA584 /* AppDelegate.m in Sources */,
 				5599743F18FD7BE3001DA584 /* main.m in Sources */,
+				5599746B18FD90D8001DA584 /* Brain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +472,7 @@
 				5599746218FD7BE3001DA584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5599746318FD7BE3001DA584 /* Build configuration list for PBXNativeTarget "RekenmachineTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				5599746518FD7BE3001DA584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

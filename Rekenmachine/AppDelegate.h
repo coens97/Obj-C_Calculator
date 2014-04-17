@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Brain.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+//IBOutlet
 @property (assign) IBOutlet NSWindow *window;
-
+@property (assign) IBOutlet NSTextField *displayField;
+//IBAction
+- (IBAction) pressedNumber:(NSButton*)sender;
+- (IBAction) pressedOperator:(NSButton*)sender;
+//Propertys
+@property Brain *brain;
 @end
